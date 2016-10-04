@@ -1,0 +1,59 @@
+[
+  {
+    "Id": "e5cd6d69-1543-427b-ad62-688a99f5e7d4",
+    "Name": "Categories",
+    "Type": "Telerik.Sitefinity.Taxonomies.Model.HierarchicalTaxonomy",
+    "LastModified": "2014-08-29T11:32:07.747Z",
+    "Title": [
+      {
+        "Key": "",
+        "Value": "Categories"
+      }
+    ],
+    "Description": [],
+    "TaxonName": [
+      {
+        "Key": "",
+        "Value": "Category"
+      }
+    ]
+  },
+  {
+    "Id": "cb0f3a19-a211-48a7-88ec-77495c0f5374",
+    "Name": "Tags",
+    "Type": "Telerik.Sitefinity.Taxonomies.Model.FlatTaxonomy",
+    "LastModified": "2014-09-02T12:39:42.45Z",
+    "Title": [
+      {
+        "Key": "",
+        "Value": "Tags"
+      }
+    ],
+    "Description": [],
+    "TaxonName": [
+      {
+        "Key": "",
+        "Value": "Tag"
+      }
+    ]
+  },
+  {
+    "Id": "d7831091-e7b1-41b8-9e75-dff32d6a7837",
+    "Name": "Departments",
+    "Type": "Telerik.Sitefinity.Taxonomies.Model.HierarchicalTaxonomy",
+    "LastModified": "2014-08-29T11:32:32.513Z",
+    "Title": [
+      {
+        "Key": "",
+        "Value": "Departments"
+      }
+    ],
+    "Description": [],
+    "TaxonName": [
+      {
+        "Key": "",
+        "Value": "Department"
+      }
+    ]
+  }
+]

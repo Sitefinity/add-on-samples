@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>OauthExternalAuthenticationAddon</id>
+    <version>1.0.0.0</version>
+    <title>OauthExternalAuthenticationAddon</title>
+    <authors>Progress</authors>
+    <owners>Progress</owners>
+    <language>en-US</language>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<summary>OauthExternalAuthenticationAddon provides the OauthExternalAuthentication Sitefinity module which enables authentication via external login providers, such as Google, Facebook, Amazon and Twitter.</summary>
+    <description>OauthExternalAuthenticationAddon provides the OauthExternalAuthentication Sitefinity module which enables authentication via external login providers, such as Google, Facebook, Amazon and Twitter. After importing the add-on go to Administration -> Settings -> Advanced -> OAE and set api keys and api secrets for different providers. Then the sitefinity instance needs to be restarted. To activate the Add-on go to Administration -> Add-ons, select the SitefintiyAddon and click Activate. When prompted, check the import content option. Now you can go to the front-end and check the external authentication.</description>
+    <references></references>
+	<dependencies>
+		<group targetFramework="net45">
+			<dependency id="Telerik.Sitefinity.All" version="9.2.6200.0" />
+			<dependency id="Microsoft.AspNet.Membership.OpenAuth" version="2.0.1" />
+			<dependency id="DotNetOpenAuth.AspNet" version="4.3.4.13329" />
+			<dependency id="DotNetOpenAuth.Core" version="4.3.4.13329" />
+			<dependency id="DotNetOpenAuth.GoogleOAuth2" version="1.1.2" />
+			<dependency id="DotNetOpenAuth.OAuth.Consumer" version="4.3.4.13329" />
+			<dependency id="DotNetOpenAuth.OAuth.Core" version="4.3.4.13329" />
+			<dependency id="DotNetOpenAuth.OpenId.Core" version="4.3.4.13329" />
+			<dependency id="DotNetOpenAuth.OpenId.RelyingParty" version="4.3.4.13329" />
+			<dependency id="EntityFramework" version="6.1.3" />
+			<dependency id="Microsoft.Bcl" />
+			<dependency id="Microsoft.Bcl.Build"  />
+			<dependency id="Microsoft.Net.Http" />
+			<dependency id="Newtonsoft.Json" />
+		</group>      
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Work\Git\Sitefinity-SDK\add-on-samples\OauthExternalAuthentication\SitefinityWebApp\App_Data\Sitefinity\Export\OauthExternalAuthenticationAddon\**\*.*" exclude="C:\Work\Git\Sitefinity-SDK\add-on-samples\OauthExternalAuthentication\SitefinityWebApp\App_Data\Sitefinity\Export\OauthExternalAuthenticationAddon\**\*.ps1" target="content\App_Data\Sitefinity\AddOns\OauthExternalAuthenticationAddon" />
+    <file src="C:\Work\Git\Sitefinity-SDK\add-on-samples\OauthExternalAuthentication\SitefinityWebApp\App_Data\Sitefinity\Export\OauthExternalAuthenticationAddon\**\*.ps1" target="tools" />
+	<file src="C:\Work\Git\Sitefinity-SDK\add-on-samples\OauthExternalAuthentication\SitefinityWebApp\Mvc\Views\LoginForm\*.*" target="content\Mvc\Views\LoginForm" />   
+	<file src="C:\Work\Git\Sitefinity-SDK\add-on-samples\OauthExternalAuthentication\SitefinityWebApp\bin\OauthExternalAuthentication.dll" target="lib\net45" /> 
+  </files>
+</package>

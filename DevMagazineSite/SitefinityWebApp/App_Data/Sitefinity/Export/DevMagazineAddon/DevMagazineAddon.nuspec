@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>DevMagazineAddon</id>
+    <version>1.0.0.0</version>
+    <title>DevMagazineAddon</title>
+    <authors>Progress</authors>
+    <owners>Progress</owners>
+    <language>en-US</language>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<summary>This website showcases how the Feather framework can be used build an entire website from scratch.</summary>
+    <description>This website showcases how the Feather framework can be used build an entire website from scratch. The site is made with mobile responsive design and demonstrates the use of both - the built-in widgets such as news and navigation and the use of the framework by developers and designers. In the development the designers have utilized the ability of Feather to encapsulate frontend packages for delivering responsive design and defining all styling rules, while the developers have utilized a lot of core benefits of Feather such as simplified dependency injection, use of content locations service for resolving items’ locations, Master/Detail view functionality and etc.</description>
+    <references></references>
+	<dependencies>
+		<group targetFramework="net45">
+			<dependency id="Telerik.Sitefinity.All" version="9.2.6200.0" />
+		</group>      
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Work\Git\Sitefinity-SDK\add-on-samples\DevMagazineSite\SitefinityWebApp\App_Data\Sitefinity\Export\DevMagazineAddon\**\*.*" exclude="C:\Work\Git\Sitefinity-SDK\add-on-samples\DevMagazineSite\SitefinityWebApp\App_Data\Sitefinity\Export\DevMagazineAddon\**\*.ps1" target="content\App_Data\Sitefinity\AddOns\DevMagazineAddon" />
+    <file src="C:\Work\Git\Sitefinity-SDK\add-on-samples\DevMagazineSite\SitefinityWebApp\App_Data\Sitefinity\Export\DevMagazineAddon\**\*.ps1" target="tools" />
+	<file src="C:\Work\Git\Sitefinity-SDK\add-on-samples\DevMagazineSite\SitefinityWebApp\bin\DevMagazine.Core.dll" target="lib\net45" /> 
+	<file src="C:\Work\Git\Sitefinity-SDK\add-on-samples\DevMagazineSite\SitefinityWebApp\Mvc\**\*.*" target="content\Mvc" />
+	<file src="C:\Work\Git\Sitefinity-SDK\add-on-samples\DevMagazineSite\SitefinityWebApp\ResourcePackages\**\*.*" target="content\ResourcePackages" />
+  </files>
+</package>

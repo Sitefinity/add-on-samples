@@ -1,0 +1,871 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<atom:entry xmlns:app="http://www.w3.org/2007/app" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cmis="http://docs.oasis-open.org/ns/cmis/core/200908/" xmlns:cmisra="http://docs.oasis-open.org/ns/cmis/restatom/200908/" xmlns:sf="urn:telerik:sitefinity:cmis" xml:base="http://localhost:1120/Sitefinity/CMIS/RestAtom/">
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>c3efff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>b8efff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>jeff-fritz</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>Jeff Fritz</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:JobTitle">
+        <cmis:value>Microsoft MVP in ASP.Net  and Developer Advocate for Telerik </cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Bio">
+        <cmis:value>&lt;a href="https://plus.google.com/103313997699382327059/"&gt;Jeffrey T. Fritz&lt;/a&gt; is a Microsoft MVP in ASP.Net, an ASP Insider and Developer Advocate for Telerik with more than a decade of experience writing and delivering large scale multi-tenant web applications. After building applications with ASP, ASP.NET and now ASP.NET MVC, he is crazy about building web sites for all sizes on any device. You can read more from Jeffrey on his &lt;a href="http://www.csharpfritz.com/"&gt;personal blog&lt;/a&gt; or on Twitter at &lt;a href="http://twitter.com/csharpfritz"&gt;@csharpfritz&lt;/a&gt;.</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Avatar">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/default-album\/jeff_fritz.tmb-.jpeg?sfvrsn=1","ChildItemId":"88efff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Avatar","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491804591)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"b8efff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Authors.Author"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>c3efff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Authors.Author</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Authors</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>01f0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>f6efff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>brian-rinaldi</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>Brian Rinaldi</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:JobTitle">
+        <cmis:value> Developer Content Manager at Telerik</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Bio">
+        <cmis:value>Brian Rinaldi is the Developer Content Manager at Telerik focused on ensuring that the Developer Relations team creates top notch content for the web development community.. For fun Brian founded a site called &lt;a href="http://flippinawesome.org"&gt;Flippin&amp;rsquo; Awesome&lt;/a&gt; which is a popular site for web and mobile developers. You can follow Brian via &lt;a href="http://twitter.com/remotesynth"&gt;@remotesynth&lt;/a&gt; on Twitter.</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Avatar">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/default-album\/brian_rinaldi.tmb-.jpeg?sfvrsn=1","ChildItemId":"ebefff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Avatar","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491804601)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"f6efff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Authors.Author"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>01f0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Authors.Author</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Authors</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>1bf0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>10f0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>burke-holland</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>Burke Holland</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:JobTitle">
+        <cmis:value>Web Developer</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Bio">
+        <cmis:value>&lt;a href="https://plus.google.com/115884468463036224504/"&gt;Burke Holland&lt;/a&gt; is a web developer living in Nashville, TN. He enjoys working with and meeting developers who are building mobile apps with jQuery / HTML5 and loves to hack on social API's. Burke works for Telerik as a Developer Advocate focusing on Kendo UI. Burke is &lt;a href="http://twitter.com/burkeholland"&gt;@burkeholland&lt;/a&gt; on Twitter.</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Avatar">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/default-album\/burke_holland.tmb-.png?sfvrsn=1","ChildItemId":"05f0ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Avatar","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491804604)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"10f0ff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Authors.Author"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>1bf0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Authors.Author</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Authors</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>35f0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>2af0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>cody-lindley</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>Cody Lindley</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:JobTitle">
+        <cmis:value>Front-end developer, Developer Advocate for Telerik</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Bio">
+        <cmis:value>Cody Lindley is a &lt;a href="http://frontenddeveloperjob.com/what-is-a-front-end-developer/"&gt;front-end developer&lt;/a&gt; working as a developer advocate for Telerik focused on the &lt;a href="http://www.telerik.com/kendo-ui"&gt;Kendo UI tools&lt;/a&gt;. He lives in Boise, ID with his wife and three children. You can read more about Cody on &lt;a href="http://www.codylindley.com"&gt;his site&lt;/a&gt; or follow him on Twitter at &lt;a href="https://twitter.com/codylindley"&gt;@codylindley&lt;/a&gt;.</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Avatar">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/default-album\/cody_lindley.tmb-.jpeg?sfvrsn=1","ChildItemId":"1ff0ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Avatar","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491804607)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"2af0ff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Authors.Author"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>35f0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Authors.Author</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Authors</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>4ff0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>44f0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>john-bristowe</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>John Bristowe</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:JobTitle">
+        <cmis:value>Principal Developer Advocate with Telerik</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Bio">
+        <cmis:value>John Bristowe (&lt;a href="https://twitter.com/JohnBristowe"&gt;@JohnBristowe&lt;/a&gt;) is a Principal Developer Advocate with Telerik and lives in Australia. Prior to joining Telerik, he was a Senior Developer Evangelist with Microsoft.</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Avatar">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/default-album\/john_bristowe.tmb-.jpeg?sfvrsn=1","ChildItemId":"39f0ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Avatar","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491804609)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"44f0ff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Authors.Author"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>4ff0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Authors.Author</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Authors</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>69f0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>5ef0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>lohith-g-n</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>Lohith G N</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:JobTitle">
+        <cmis:value>Technical Evangelist, Telerik India</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Bio">
+        <cmis:value>Production Engineer by Education, Software Engineer by profession. Technical Evangelist, Telerik India. He's had almost a decade in the industry. Likes Cricket, Bryan Adams and Friends.</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Avatar">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/default-album\/lohith_g_n.tmb-.png?sfvrsn=1","ChildItemId":"53f0ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Avatar","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491804612)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"5ef0ff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Authors.Author"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>69f0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Authors.Author</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Authors</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>83f0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>78f0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>michael-crump</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>Michael Crump</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:JobTitle">
+        <cmis:value>Microsoft MVP</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Bio">
+        <cmis:value>&lt;a href="https://plus.google.com/117687592840045706573/" rel="author"&gt;Michael Crump&lt;/a&gt; is a Microsoft MVP, Pluralsight and MSDN author as well as an international speaker. He works at Telerik with a focus on everything mobile.&amp;nbsp; You can follow him on Twitter at &lt;a href="http://www.twitter.com/mbcrump"&gt;@mbcrump&lt;/a&gt; or keep up with his various blogs by visiting his &lt;a href="http://blogs.telerik.com/michaelcrump/posts.aspx"&gt;Telerik Blog&lt;/a&gt; or his &lt;a href="http://michaelcrump.net"&gt;Personal Blog&lt;/a&gt;.</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Avatar">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/default-album\/michael_crump.tmb-.png?sfvrsn=1","ChildItemId":"6df0ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Avatar","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491804614)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"78f0ff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Authors.Author"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>83f0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Authors.Author</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Authors</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>9df0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>92f0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>sam-basu</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>Sam Basu</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:JobTitle">
+        <cmis:value>Microsoft MVP</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Bio">
+        <cmis:value>Samidip Basu (&lt;a href="https://twitter.com/samidip"&gt;@samidip&lt;/a&gt;) is a technologist, Apress/Pluralsight author, speaker, Microsoft MVP, believer in software craftsmanship, gadget-lover and Developer Advocate for Telerik. With a long developer background, he now spends much of my time advocating modern web/mobile/cloud development platforms on Microsoft/Telerik stacks. His spare times call for travel and culinary adventures with the wife. Find out more at &lt;a href="http://samidipbasu.com/"&gt;http://samidipbasu.com&lt;/a&gt;.</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Avatar">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/default-album\/sam_basu.tmb-.jpeg?sfvrsn=1","ChildItemId":"87f0ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Avatar","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491804616)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"92f0ff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Authors.Author"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>9df0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Authors.Author</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Authors</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>b7f0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>acf0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>sebastian-witalec</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>Sebastian Witalec</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:JobTitle">
+        <cmis:value>Solution Engineer and Technical Evangelist for Telerik</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Bio">
+        <cmis:value>Sebastian Witalec is a Solution Engineer and a Technical Evangelist for Telerik with over 6 years of experience in software engineering and architecture. Sebastian has passion for all types of technologies. He is always happy to learn about the new stuff and to pass the knowledge as far as his voice (or the wire) can take him. Sebastian is based in London, UK actively working with various Dev communities in the area. When not acting techie he is a massive football fan/player (probably bigger at heart than skills).</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Avatar">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/default-album\/sebastian_witalec.tmb-.jpeg?sfvrsn=1","ChildItemId":"a1f0ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Avatar","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491804619)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"acf0ff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Authors.Author"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>b7f0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Authors.Author</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Authors</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>d1f0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>c6f0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>tj-vantoll</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>TJ VanToll</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:JobTitle">
+        <cmis:value>Developer Advocate for Telerik</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Bio">
+        <cmis:value>&lt;a href="https://plus.google.com/+TJVanToll" rel="author"&gt;TJ VanToll&lt;/a&gt; is a developer advocate for Telerik, a &lt;a href="http://jqueryui.com/about/"&gt;jQuery team member&lt;/a&gt;, and the author of &lt;a href="http://tjvantoll.com/jquery-ui-in-action.html"&gt;jQuery UI in Action&lt;/a&gt;. TJ has over a decade of web development experience&amp;mdash;specializing in performance and the mobile web&amp;mdash;and &lt;a href="http://tjvantoll.com/speaking/"&gt;speaks&lt;/a&gt; about his research at conferences around the world. TJ is &lt;a href="https://twitter.com/tjvantoll"&gt;@tjvantoll&lt;/a&gt; on Twitter and &lt;a href="https://github.com/tjvantoll"&gt;tjvantoll&lt;/a&gt; on GitHub.</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Avatar">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/default-album\/tj_vantoll.tmb-.jpg?sfvrsn=1","ChildItemId":"bbf0ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Avatar","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491804621)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"c6f0ff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Authors.Author"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>d1f0ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Authors.Author</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Authors</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>1bf6ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>10f6ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>rob-lauer</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>Rob Lauer</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:JobTitle">
+        <cmis:value>Product Manager for Telerik</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Bio">
+        <cmis:value>Rob Lauer is a Product Manager for Telerik and has a passion for hybrid mobile app development and the open web. In his other life he raises two kids, plays Ultimate Frisbee, and (for better or worse) is an avid Wisconsin Badger fan. Rob is &lt;a href="https://twitter.com/rdlauer"&gt;@rdlauer&lt;/a&gt; on Twitter.</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Avatar">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/default-album\/rob_lauer.tmb-.jpeg?sfvrsn=1","ChildItemId":"05f6ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Avatar","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491804623)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"10f6ff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Authors.Author"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>1bf6ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Authors.Author</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Authors</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>94f6ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>89f6ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>jim-holmes</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>Jim Holmes</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:JobTitle">
+        <cmis:value>VP of ALM and Testing at Falafel Software</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Bio">
+        <cmis:value>Jim Holmes has more than 25 years of IT experience. He's VP of ALM and Testing at Falafel Software, the leading provider of custom software development, training and consulting services. Falafel Software customers include Fortune 500&amp;reg; companies like Microsoft and Shell.</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Avatar">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/default-album\/Articles\/jim_holmes.tmb-.jpeg?sfvrsn=1","ChildItemId":"7ef6ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Avatar","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491804625)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"89f6ff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Authors.Author"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>94f6ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Authors.Author</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Authors</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>68f7ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>5df7ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>evan-hutnick</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>Evan Hutnick</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:JobTitle">
+        <cmis:value>Technical Lead at Telerik</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Bio">
+        <cmis:value>Evan Hutnick is a Technical Lead at Telerik focusing on helping customers deliver great software and understand the platforms they are using. When not at work, Evan is a part-time game developer and full-time father and husband. You can follow Evan on Twitter &lt;a href="https://twitter.com/evanhutnick"&gt;@evanhutnick&lt;/a&gt;.</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Avatar">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/default-album\/evan_hutnick.tmb-.jpeg?sfvrsn=1","ChildItemId":"52f7ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Avatar","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491804626)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"5df7ff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Authors.Author"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>68f7ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Authors.Author</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Authors</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>07ffff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>fcfeff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>todd-anglin</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>Todd Anglin</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:JobTitle">
+        <cmis:value>VP of HTML5 Web &amp; Mobile Tools for Telerik</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Bio">
+        <cmis:value>Todd Anglin&amp;nbsp;is an avid HTML5, CSS3, and JavaScript advocate, and geek about all things web development. He is an active speaker and author, helping developers around the world learn and adopt HTML5. Todd works for Telerik as VP of HTML5 Web &amp;amp; Mobile Tools, where his current technical focus is on Kendo UI. Todd is&amp;nbsp;&lt;a target="_blank" href="http://twitter.com/toddanglin"&gt;@toddanglin on Twitter&lt;/a&gt;</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Avatar">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/default-album\/todd_anglin.tmb-.jpg?sfvrsn=1","ChildItemId":"f1feff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"Avatar","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491804629)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"fcfeff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Authors.Author"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>07ffff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Authors.Author</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Authors</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+</atom:entry>

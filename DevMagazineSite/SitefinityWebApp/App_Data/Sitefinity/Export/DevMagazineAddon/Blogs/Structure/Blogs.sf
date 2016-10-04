@@ -1,0 +1,66 @@
+[
+  {
+    "Id": "85e3ff31-ebfb-67f3-ba7d-ff000072e94b",
+    "Namespace": "Telerik.Sitefinity.Blogs.Model",
+    "ClassName": "BlogPost",
+    "Fields": [
+      {
+        "Id": "86e3ff31-ebfb-67f3-ba7d-ff000072e94b",
+        "FieldName": "Category",
+        "TaxonomyProvider": "OpenAccessDataProvider",
+        "TaxonomyId": "e5cd6d69-1543-427b-ad62-688a99f5e7d4",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "1bacb4db-71f4-4807-9a32-03a9a0190eab",
+            "Name": "ControlTag",
+            "Value": "<sitefinity:HierarchicalTaxonField ID=\"HierarchicalFieldControl\" runat=\"server\" TaxonomyId=\"E5CD6D69-1543-427b-AD62-688A99F5E7D4\" DisplayMode=\"Read\" WebServiceUrl=\"~/Sitefinity/Services/Taxonomies/HierarchicalTaxon.svc\" Expanded=\"false\" TaxonomyMetafieldName=\"Category\" ExpandText=\"ClickToAddCategories\" BindOnServer=\"true\" />"
+          },
+          {
+            "Id": "68448d5a-bcbf-45ad-a1e4-58a43cad16a0",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          },
+          {
+            "Id": "eda47231-403e-4295-a14c-9e5529b9f7b7",
+            "Name": "IsBuiltIn",
+            "Value": "true"
+          }
+        ],
+        "ApplicationName": "SF_7_1_5208/",
+        "IsDynamic": true
+      },
+      {
+        "Id": "87e3ff31-ebfb-67f3-ba7d-ff000072e94b",
+        "FieldName": "Tags",
+        "TaxonomyProvider": "OpenAccessDataProvider",
+        "TaxonomyId": "cb0f3a19-a211-48a7-88ec-77495c0f5374",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "b5056e5a-e7a9-4abf-8434-d66a5ddab693",
+            "Name": "ControlTag",
+            "Value": "<sitefinity:FlatTaxonField ID=\"FlatFieldControl\" DisplayMode=\"Read\" runat=\"server\" WebServiceUrl=\"~/Sitefinity/Services/Taxonomies/FlatTaxon.svc\" AllowMultipleSelection=\"true\" TaxonomyId=\"CB0F3A19-A211-48a7-88EC-77495C0F5374\" TaxonomyMetafieldName=\"Tags\" Expanded=\"false\" ExpandText=\"ClickToAddTags\" BindOnServer=\"true\" />"
+          },
+          {
+            "Id": "6a765f17-c7be-412c-86dc-c39aabb614fa",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          },
+          {
+            "Id": "21fa5889-6ff5-4d1a-abd3-6027ee05baee",
+            "Name": "IsBuiltIn",
+            "Value": "true"
+          }
+        ],
+        "ApplicationName": "SF_7_1_5208/",
+        "IsDynamic": true
+      }
+    ],
+    "ApplicationName": "SF_7_1_5208/",
+    "Presentation": [],
+    "MetaAttributes": [],
+    "SectionNames": [],
+    "AssemblyName": "Telerik.Sitefinity.ContentModules"
+  }
+]

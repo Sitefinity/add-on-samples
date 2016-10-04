@@ -1,0 +1,141 @@
+[
+  {
+    "Id": "38e3ff31-ebfb-67f3-ba7d-ff000072e94b",
+    "Namespace": "Telerik.Sitefinity.News.Model",
+    "ClassName": "NewsItem",
+    "Fields": [
+      {
+        "Id": "39e3ff31-ebfb-67f3-ba7d-ff000072e94b",
+        "FieldName": "Category",
+        "TaxonomyProvider": "OpenAccessDataProvider",
+        "TaxonomyId": "e5cd6d69-1543-427b-ad62-688a99f5e7d4",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "eb820a7d-de65-42f3-839e-70a3dcf25324",
+            "Name": "ControlTag",
+            "Value": "<sitefinity:HierarchicalTaxonField ID=\"HierarchicalFieldControl\" runat=\"server\" TaxonomyId=\"E5CD6D69-1543-427b-AD62-688A99F5E7D4\" DisplayMode=\"Read\" WebServiceUrl=\"~/Sitefinity/Services/Taxonomies/HierarchicalTaxon.svc\" Expanded=\"false\" TaxonomyMetafieldName=\"Category\" ExpandText=\"ClickToAddCategories\" BindOnServer=\"true\" />"
+          },
+          {
+            "Id": "dc6500ed-c21e-42db-b4e5-2cdadd523d23",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          },
+          {
+            "Id": "3434c9d6-a978-4b0c-9d8d-6655b7815d1d",
+            "Name": "IsBuiltIn",
+            "Value": "true"
+          }
+        ],
+        "ApplicationName": "SF_7_1_5208/",
+        "IsDynamic": true
+      },
+      {
+        "Id": "3ae3ff31-ebfb-67f3-ba7d-ff000072e94b",
+        "FieldName": "Tags",
+        "TaxonomyProvider": "OpenAccessDataProvider",
+        "TaxonomyId": "cb0f3a19-a211-48a7-88ec-77495c0f5374",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "8e3cca06-90c8-4f1c-89ec-1189494199ba",
+            "Name": "ControlTag",
+            "Value": "<sitefinity:FlatTaxonField ID=\"FlatFieldControl\" DisplayMode=\"Read\" runat=\"server\" WebServiceUrl=\"~/Sitefinity/Services/Taxonomies/FlatTaxon.svc\" AllowMultipleSelection=\"true\" TaxonomyId=\"CB0F3A19-A211-48a7-88EC-77495C0F5374\" TaxonomyMetafieldName=\"Tags\" Expanded=\"false\" ExpandText=\"ClickToAddTags\" BindOnServer=\"true\" />"
+          },
+          {
+            "Id": "b00daff4-696c-4daa-a408-5a69e0a2520e",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          },
+          {
+            "Id": "8f4a9f82-2250-4e16-9bdf-16facb8a8091",
+            "Name": "IsBuiltIn",
+            "Value": "true"
+          }
+        ],
+        "ApplicationName": "SF_7_1_5208/",
+        "IsDynamic": true
+      },
+      {
+        "Id": "92edff31-ebfb-67f3-ba7d-ff000072e94b",
+        "FieldName": "ArticleAuthor",
+        "ClrType": "Telerik.Sitefinity.RelatedData.RelatedItems",
+        "DBType": "",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "b604b7c9-ff13-4e94-a536-4c82a709fe2c",
+            "Name": "RelatedType",
+            "Value": "Telerik.Sitefinity.DynamicTypes.Model.Authors.Author"
+          },
+          {
+            "Id": "1347d117-1957-4ea2-83fc-ea933a8b137b",
+            "Name": "RelatedProviders",
+            "Value": "sf-site-default-provider"
+          },
+          {
+            "Id": "a1afb2fe-b7ae-4bb9-bf4c-d48120bdc672",
+            "Name": "ControlTag",
+            "Value": "<div class=\"sfSnglRelatedItmWrp\">\r\n                <h2 class=\"sfrelatedItmTitle\">Related authors</h2>\r\n                <div class=\"sfrelatedItmWrp\">\r\n                    <a href='<%# Telerik.Sitefinity.RelatedData.RelatedDataExtensions.GetDefaultUrl(Eval(\"ArticleAuthor\")) %>'><%# Eval(\"ArticleAuthor.Name\") %></a>\r\n                </div>\r\n            </div>"
+          },
+          {
+            "Id": "51889fba-9f7d-4f80-b529-a72d6fdf024c",
+            "Name": "UserFriendlyDataType",
+            "Value": "RelatedData"
+          },
+          {
+            "Id": "53a13c6c-fdd8-4cd6-a41e-d35da7762b12",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          }
+        ],
+        "IsInternal": true,
+        "IsProtectedRelation": true,
+        "ApplicationName": "SF_7_1_5208/",
+        "IsDynamic": true
+      },
+      {
+        "Id": "f6edff31-ebfb-67f3-ba7d-ff000072e94b",
+        "FieldName": "Image",
+        "ClrType": "Telerik.Sitefinity.RelatedData.RelatedItems",
+        "DBType": "",
+        "Presentation": [],
+        "MetaAttributes": [
+          {
+            "Id": "a795a38d-0a29-4845-81c2-d8f9c0834ef2",
+            "Name": "RelatedType",
+            "Value": "Telerik.Sitefinity.Libraries.Model.Image"
+          },
+          {
+            "Id": "3768d3be-5d59-4433-9834-a10f2cd971db",
+            "Name": "RelatedProviders",
+            "Value": "sf-site-default-provider"
+          },
+          {
+            "Id": "45d98aec-9f45-4ac3-abc9-51bb57851391",
+            "Name": "ControlTag",
+            "Value": "<div class=\"sfSnglRelatedItmWrp\">\r\n                <h2 class=\"sfrelatedItmTitle\"></h2>\r\n                <div class=\"sfrelatedItmWrp\">\r\n                    <img src='<%# Eval(\"Image.MediaUrl\")%>' alt='<%# Eval(\"Image.AlternativeText\")%>' title='<%# Eval(\"Image.Title\") %>' />\r\n                </div>\r\n            </div>"
+          },
+          {
+            "Id": "994a67a8-becd-45df-bdf9-37d940118273",
+            "Name": "UserFriendlyDataType",
+            "Value": "RelatedMedia"
+          },
+          {
+            "Id": "0cc57354-433c-4cbb-acee-369f4960c892",
+            "Name": "IsCommonProperty",
+            "Value": "true"
+          }
+        ],
+        "IsInternal": true,
+        "ApplicationName": "SF_7_1_5208/",
+        "IsDynamic": true
+      }
+    ],
+    "ApplicationName": "SF_7_1_5208/",
+    "Presentation": [],
+    "MetaAttributes": [],
+    "SectionNames": [],
+    "AssemblyName": "Telerik.Sitefinity.ContentModules"
+  }
+]

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>ConferenceAddon</id>
+    <version>1.0.0.0</version>
+    <title>ConferenceAddon</title>
+    <authors>Progress</authors>
+    <owners>Progress</owners>
+    <language>en-US</language>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ConferenceAddon provides Conferences, Sessions and Speakers dynamic modules. It also adds a custom MVC widget for Sessions, which shows sessions filtered by conference and speaker.</description>
+    <references></references>
+	<dependencies>
+		<group targetFramework="net45">
+			<dependency id="Telerik.Sitefinity.All" version="9.2.6200.0" />
+		</group>      
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Work\Git\Sitefinity-SDK\add-on-samples\Conference\App_Data\Sitefinity\Export\ConferenceAddon\**\*.*" exclude="C:\Work\Git\Sitefinity-SDK\add-on-samples\add-on-samples\Conference\App_Data\Sitefinity\Export\ConferenceAddon\**\*.ps1" target="content\App_Data\Sitefinity\AddOns\ConferenceAddon" />
+    <file src="C:\Work\Git\Sitefinity-SDK\add-on-samples\Conference\App_Data\Sitefinity\Export\ConferenceAddon\**\*.ps1" target="tools" />
+	<file src="C:\Work\Git\Sitefinity-SDK\add-on-samples\Conference\Mvc\**\*.*" target="content\Mvc" />
+  </files>
+</package>

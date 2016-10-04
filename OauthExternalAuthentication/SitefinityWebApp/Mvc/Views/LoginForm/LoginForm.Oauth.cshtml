@@ -1,0 +1,127 @@
+﻿@model Telerik.Sitefinity.Frontend.Identity.Mvc.Models.LoginForm.LoginFormViewModel
+
+@using Telerik.Sitefinity.UI.MVC;
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Modules.Pages;
+@using Telerik.Sitefinity.Services;
+@using Microsoft.AspNet.Membership.OpenAuth;
+@using Telerik.Sitefinity.Web;
+
+@*Add scripts and stylesheets*@
+@Html.Script(ScriptRef.JQuery, "top")
+@Html.Script("//ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate.js", "top")
+@Html.Script("//ajax.aspnetcdn.com/ajax/mvc/4.0/jquery.validate.unobtrusive.min.js", "top")
+@Html.StyleSheet(Url.EmbeddedResource("OauthExternalAuthentication.Web.UI.OAuthLoginForm", "OauthExternalAuthentication.Web.UI.Styles.Login.css"), "head")
+
+<div class="@Model.CssClass">
+    @if (Telerik.Sitefinity.Security.SecurityManager.GetCurrentUserId() == Guid.Empty || SystemManager.IsInlineEditingMode || SystemManager.IsDesignMode)
+    {
+        <div>
+            @using (Html.BeginFormSitefinity(@Request.Url.Query, null, null, FormMethod.Post, null, true))
+            {
+                @Html.ValidationSummary(true)
+                <label><strong>@Html.Resource("LoginFormLogInLegendHeader")</strong></label>
+
+                <div class="form-group">
+                    <label>
+                        @Html.Resource("Username")
+                    </label>
+
+                    @Html.TextBoxFor(u => u.UserName, new { @class = "form-control" })
+                    @if (Html.ValidationMessage("UserName") != null)
+                    {
+                        <div class="has-error">
+                            <span class="help-block">@Html.ValidationMessage("UserName")</span>
+                        </div>
+                    }
+
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        @Html.Resource("Password")
+                    </label>
+
+                    @Html.PasswordFor(u => u.Password, new { @class = "form-control" })
+                    @if (Html.ValidationMessage("Password") != null)
+                    {
+                        <div class="has-error">
+                            <span class="help-block">@Html.ValidationMessage("Password")</span>
+                        </div>
+                    }
+
+                </div>                
+
+                if (Model.ShowRememberMe)
+                {
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label>
+                                @Html.CheckBoxFor(u => u.RememberMe)
+                                @Html.Resource("RememberMe")
+                            </label>
+                        </div>
+                    </div>
+                }
+
+                <button type="submit" class="btn btn-primary">@Html.Resource("LoginFormLogInButton")</button>
+
+
+                if (Model.ShowForgotPasswordLink)
+                {
+                    @Html.ActionLink(Html.Resource("ForgottenPasword"), "ForgotPassword")
+                }
+
+                if (Model.IncorrectCredentials)
+                {
+
+                    <div class="has-error">
+                        <span class="help-block">@Html.Resource("IncorrectCredentialsMessage")</span>
+                    </div>
+
+                }
+
+                if (Model.ShowRegistrationLink)
+                {
+                    <h4>
+                        <strong><a href="@Model.RegisterPageUrl">@Html.Resource("LoginFormRegisterNow")</a></strong>
+                    </h4>
+                }
+
+                //string realm = HttpContext.Current.Request.Url.GetLeftPart(UriPartial.Authority);
+                string serviceUrl = Model.ServiceUrl;
+                serviceUrl = serviceUrl.Contains("?") ? serviceUrl += "&" : serviceUrl += "?";
+
+                string querystringReturnUrl = HttpContext.Current.Request.QueryString["ReturnUrl"];
+                string domainUrl = UrlPath.GetDomainUrl();
+                if (querystringReturnUrl != null && querystringReturnUrl.StartsWith(domainUrl))
+                {
+                    querystringReturnUrl = querystringReturnUrl.Remove(querystringReturnUrl.IndexOf(domainUrl), domainUrl.Length);
+                }
+
+                string loginUrl = serviceUrl
+                    + "realm=" + HttpUtility.UrlEncode(Model.Realm)
+                    + "&redirect_uri=" + HttpUtility.UrlEncode(querystringReturnUrl ?? Model.RedirectUrlAfterLogin)
+                    + "&redirect_url_failure=" + HttpUtility.UrlEncode(HttpContext.Current.Request.Url.AbsoluteUri);
+
+                <div id="oAuthProviders">
+                    @foreach (var provider in OpenAuth.AuthenticationClients.GetAll())
+                    {
+                        <div class="form-group">
+                            <a href="@string.Concat(loginUrl, "&oaprovider=", provider.ProviderName)" class="oauthloginprovider">
+                                <img id="facebook" src="@Url.EmbeddedResource("OauthExternalAuthentication.Web.UI.OAuthLoginForm", "OauthExternalAuthentication.Web.UI.Images." + provider.ProviderName + ".png")" alt="@provider.ProviderName" />
+                            </a>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    }
+
+    else
+    {
+        <p>@Html.Resource("AlreadyLoggedIn")</p>
+    }
+</div>
+
+@Html.Script(Url.WidgetContent("Mvc/Scripts/LoginForm/login-form.js"), "bottom")

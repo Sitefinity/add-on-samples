@@ -1,0 +1,1077 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<atom:entry xmlns:app="http://www.w3.org/2007/app" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cmis="http://docs.oasis-open.org/ns/cmis/core/200908/" xmlns:cmisra="http://docs.oasis-open.org/ns/cmis/restatom/200908/" xmlns:sf="urn:telerik:sitefinity:cmis" xml:base="http://localhost:1120/Sitefinity/CMIS/RestAtom/">
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>5df5ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>4ef5ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>the-day-your-website-went-down</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>The Ultimate Agile Planning Handbook</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueCover">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/issue-covers\/cover1.tmb-.png?sfvrsn=1","ChildItemId":"0e230032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"IssueCover","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805207)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"4ef5ff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueDocument">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"How to implement a Master Detail content controller..pdf (159 KB )","ChildItemId":"c95c0032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"IssueDocument","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805208)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"4ef5ff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Articles">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"0cf8ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"Articles","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805210)\/","Ordinal":-1,"ParentItemAdditionalInfo":null,"ParentItemId":"4ef5ff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:FeaturedArticle">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"25f1ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"FeaturedArticle","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805212)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"4ef5ff31-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value>20+ pages of insightful how-to tips and Agile planning best practices that will help you improve your planning process today! Download our eBook and get all the essentials and best practices.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:IssueNumber">
+        <cmis:value>January ‘14</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>5df5ff31-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Issues</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>7b240032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>64240032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>5-key-forces-shaping-next-generation-of-enterprise-mobility</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>5 Key Forces Shaping Next Generation of Enterprise Mobility</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueCover">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/issue-covers\/cover2.tmb-.png?sfvrsn=1","ChildItemId":"12230032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"IssueCover","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805214)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"64240032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueDocument">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"Page templates based on layout files with Feather..pdf (194 KB )","ChildItemId":"b95c0032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"IssueDocument","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805216)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"64240032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Articles">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"d1f7ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"Articles","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805218)\/","Ordinal":6,"ParentItemAdditionalInfo":null,"ParentItemId":"64240032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:FeaturedArticle">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"fff6ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"FeaturedArticle","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805220)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"64240032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value>Mobile apps are creating a higher return on investment than ever before for enterprises.
+However, a number of challenges slow down the speed of enterprise mobile adoption.
+This whitepaper provides a detailed view of the five major factors in enterprise mobility:
+security, investment costs, mobilizing existing data, cloud and multi-platform mobile
+development. Read on to learn more about these factors and discover how to prevent them from slowing your mobility strategy.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:IssueNumber">
+        <cmis:value>February '14</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>7b240032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Issues</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>f9240032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>e2240032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>how-to-create-a-twitter-app-from-scratch-using-ui-for-wp8</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>How to create a Twitter app from scratch using UI for WP8</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueCover">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/issue-covers\/cover3.tmb-.png?sfvrsn=1","ChildItemId":"1a230032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"IssueCover","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805222)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"e2240032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueDocument">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"Feather resource packages..pdf (229 KB )","ChildItemId":"d15c0032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"IssueDocument","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805224)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"e2240032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Articles">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"72fdff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"Articles","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805226)\/","Ordinal":6,"ParentItemAdditionalInfo":null,"ParentItemId":"e2240032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:FeaturedArticle">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"9cf7ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"FeaturedArticle","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805228)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"e2240032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value>In order to create any type of professional application, you need the right tools. Here, we are going to write a Twitter app that allows the user to type in a twitter username and display the tweets from the user. We will be using the new Twitter API v1.1 released late last year and a couple of excellent tools to complete the project.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:IssueNumber">
+        <cmis:value>March '14</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>f9240032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Issues</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>73250032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>3c250032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>telerik-platform-security---ensure-app-security-at-all-levels</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Telerik Platform Security - Ensure App Security At All Levels</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueCover">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/issue-covers\/cover4.tmb-.png?sfvrsn=1","ChildItemId":"e6220032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"IssueCover","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805230)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"3c250032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueDocument">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"How to implement action that filters by category or tag..pdf (159 KB )","ChildItemId":"b55c0032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"IssueDocument","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805233)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"3c250032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Articles">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"55feff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"Articles","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805235)\/","Ordinal":5,"ParentItemAdditionalInfo":null,"ParentItemId":"3c250032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:FeaturedArticle">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"2bf6ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"FeaturedArticle","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805237)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"3c250032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value>At Telerik, we realize how important security is for you and the users of your app. This is why our team approaches security as a fundamental component of the Telerik Platform. Telerik takes extensive measures to protect our customers from threats by applying security controls across all layers of our solutions.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:IssueNumber">
+        <cmis:value>April '14</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>73250032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Issues</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>3b290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>24290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>getting-off-on-the-right-foot-with-your-test-automation-project</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Getting Off On The Right Foot With Your Test Automation Project</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueCover">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/issue-covers\/cover5.tmb-.png?sfvrsn=1","ChildItemId":"1e230032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"IssueCover","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805239)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"24290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueDocument">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"Add custom commands for editing widget with Feather..pdf (325 KB )","ChildItemId":"b15c0032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"IssueDocument","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805242)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"24290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Articles">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"e6fdff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"Articles","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805245)\/","Ordinal":7,"ParentItemAdditionalInfo":null,"ParentItemId":"24290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:FeaturedArticle">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"94feff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"FeaturedArticle","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805248)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"24290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value>Teams new to test automation, and even some who’ve been working in automation for some time, often struggle with a number of challenges. This whitepaper will lay out several of the most common challenges and give you some ideas on how to avoid them. You’ll learn approaches for setting expectations with the entire team on automation efforts; ensuring the team understands page locators and dynamic content situations, and more.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:IssueNumber">
+        <cmis:value>May '14</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>3b290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Issues</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>60290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>49290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>how-to-choose-the-right-asp.net-controls</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>How to Choose the Right ASP.NET Controls</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueCover">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/issue-covers\/cover6.tmb-.png?sfvrsn=1","ChildItemId":"16230032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"IssueCover","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805251)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"49290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueDocument">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"Create a custom designer view..pdf (262 KB )","ChildItemId":"cd5c0032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"IssueDocument","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805253)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"49290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Articles">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"17ffff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"Articles","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805255)\/","Ordinal":6,"ParentItemAdditionalInfo":null,"ParentItemId":"49290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:FeaturedArticle">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"a3fdff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"FeaturedArticle","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805257)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"49290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value>Investing in third party ASP.NET toolsets is well worth it, but only if you find the best toolset for your project.But what characteristics should you be looking for, and how do you make a thorough—but fast—evaluation?</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:IssueNumber">
+        <cmis:value>June '14</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>60290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Issues</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>7b290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>64290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>build-cross-platform-mobile-applications-with-telerik-tools</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Build Cross-Platform Mobile Applications with Telerik Tools</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueCover">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/issue-covers\/cover7.tmb-.png?sfvrsn=1","ChildItemId":"ea220032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"IssueCover","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805259)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"64290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueDocument">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"Helper methods for getting localized data..pdf (161 KB )","ChildItemId":"c55c0032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"IssueDocument","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805261)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"64290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Articles">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"bdfdff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"Articles","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805263)\/","Ordinal":6,"ParentItemAdditionalInfo":null,"ParentItemId":"64290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:FeaturedArticle">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"f7faff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"FeaturedArticle","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805264)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"64290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value>Telerik provides a set of tools for creating cross-platform mobile applications and additionally exposes a robust set of cloud services for storing data. Icenium provides the environment for developing and deploying the application, the Kendo UI Mobile framework provides the means to structure the application and a set of common user interface components, and Icenium Everlive provides the cloud storage for data via a set of REST services.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:IssueNumber">
+        <cmis:value>July '14</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>7b290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Issues</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>96290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>7f290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>10-game-changing-features-in-visual-studio-2013</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>10 Game-Changing Features in Visual Studio 2013 for the ASP.NET Developer</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueCover">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/issue-covers\/cover8.tmb-.png?sfvrsn=1","ChildItemId":"ee220032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"IssueCover","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805267)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"7f290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueDocument">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"Create a Hello World MVC widget..pdf (529 KB )","ChildItemId":"685a0032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"IssueDocument","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805269)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"7f290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Articles">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"dffeff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"Articles","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805271)\/","Ordinal":8,"ParentItemAdditionalInfo":null,"ParentItemId":"7f290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:FeaturedArticle">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"e2ffff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"FeaturedArticle","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805273)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"7f290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value>October 2013 brought a new release of Microsoft Visual Studio, ushering in some of the most dramatic changes to ASP.NET since the introduction of the framework in .NET 1.0. This whitepaper will review 10 of the most important changes, and explain what makes them so valuable for ASP.NET developers. You will learn why Visual Studio 2013 is the version of the IDE to upgrade to, no matter if you are currently running in version 2012, 2010, 2008, or 2005.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:IssueNumber">
+        <cmis:value>August '14</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>96290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Issues</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>b1290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>9a290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>the-html5-vs.-native-debate-is-over-the-winner-is</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>The HTML5 vs. Native Debate is Over &amp; the Winner is…</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueCover">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/issue-covers\/cover9.tmb-.png?sfvrsn=1","ChildItemId":"f2220032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"IssueCover","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805275)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"9a290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueDocument">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"Helper methods for enabling the Inline Editing feature..pdf (253 KB )","ChildItemId":"d55c0032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"IssueDocument","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805277)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"9a290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Articles">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"d2ffff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"Articles","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805279)\/","Ordinal":7,"ParentItemAdditionalInfo":null,"ParentItemId":"9a290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:FeaturedArticle">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"32feff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"FeaturedArticle","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805283)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"9a290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value>In the latest iteration of its HTML5 Global Developer survey, Telerik once again posed questions to software developers from around the world. This time around, we took a closer look at the state of mobile app development as a whole. More than 3500 survey respondents ranging from developers to CIOs/CTOs and from companies large and small around the world chimed in with their perspectives, preferences--and, in some cases, assumptions--on the state of the mobile market.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:IssueNumber">
+        <cmis:value>September '14</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>b1290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Issues</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>cc290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>b5290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>approaching-mobile-understanding-the-three-ways-to-build-mobile-apps</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Approaching Mobile: Understanding the Three Ways to Build Mobile Apps</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueCover">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/issue-covers\/cover10.tmb-.png?sfvrsn=1","ChildItemId":"f6220032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"IssueCover","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805288)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"b5290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueDocument">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"Pass server data to widget designer views..pdf (128 KB )","ChildItemId":"bd5c0032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"IssueDocument","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805292)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"b5290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Articles">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"30fdff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"Articles","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805296)\/","Ordinal":7,"ParentItemAdditionalInfo":null,"ParentItemId":"b5290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:FeaturedArticle">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"fff6ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"FeaturedArticle","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805300)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"b5290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value>To build apps that reach all users, developers must deal with many different operating systems, SDKs, development tools, screen sizes and form factors, as well as a technology landscape that is still in a constant state of flux. And if that were not enough, there are also several different ways to build mobile apps that development teams must sort through before beginning any new mobile effort. There are three primary approaches to building mobile apps today: Web, Hybrid, and Native.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:IssueNumber">
+        <cmis:value>October '14</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>cc290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Issues</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>e7290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>d0290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>can-third-party-asp.net-controls-make-me-more-productive</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Can Third-Party ASP.NET Controls Make Me More Productive?</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueCover">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/issue-covers\/cover11.tmb-.png?sfvrsn=1","ChildItemId":"fa220032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"IssueCover","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805316)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"d0290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueDocument">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"Use a news selector..pdf (160 KB )","ChildItemId":"9b5d0032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"IssueDocument","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805319)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"d0290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Articles">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"3efaff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"Articles","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805321)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"d0290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:FeaturedArticle">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"a3fdff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"FeaturedArticle","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805324)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"d0290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value>Do you stick to the default ASP.NET controls because you doubt the productivity gains of third-party controls? Telerik Developer Evangelist, Jeff Fritz, gave himself a challenge: build the same application by allocating 30 minutes to working with the default Visual Studio toolset and 30 minutes to Telerik UI for ASP.NET AJAX. He then compared the results based on how much functionality he implemented and the amount of code he had to write. The productivity gap may surprise you.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:IssueNumber">
+        <cmis:value>November '14</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>e7290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Issues</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>022a0032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>eb290032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>selecting-a-cms-that-supports-your-business</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Selecting a CMS That Supports Your Business</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueCover">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/issue-covers\/cover12.tmb-.png?sfvrsn=1","ChildItemId":"fe220032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"IssueCover","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805326)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"eb290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueDocument">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"Refer to resources inside MVC views..pdf (216 KB )","ChildItemId":"c15c0032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"IssueDocument","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805328)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"eb290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Articles">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"2bf6ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"Articles","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805330)\/","Ordinal":1,"ParentItemAdditionalInfo":null,"ParentItemId":"eb290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:FeaturedArticle">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"3dffff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"FeaturedArticle","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805333)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"eb290032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value>There is a relatively short window of opportunity to assess all the qualities of a CMS product and vendor, as well as strategize and envision the solution that matches your long term vision.But how do you go about selecting a CMS in a business environment increasingly defined by its mobility and connectivity? This Complimentary Buyers Guide is intended to help you prepare and will ensure you purchase the best CMS for your enterprise.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:IssueNumber">
+        <cmis:value>December '14</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>022a0032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Issues</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>1d2a0032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>062a0032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>getting-started-with-website-performance-testing</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Getting Started With Website Performance Testing</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueCover">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/issue-covers\/cover13.tmb-.png?sfvrsn=1","ChildItemId":"02230032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"IssueCover","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805336)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"062a0032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueDocument">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"Use a taxon selector..pdf (162 KB )","ChildItemId":"975d0032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"IssueDocument","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805338)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"062a0032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Articles">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"25f1ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"Articles","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805341)\/","Ordinal":2,"ParentItemAdditionalInfo":null,"ParentItemId":"062a0032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:FeaturedArticle">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"25f1ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"FeaturedArticle","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805342)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"062a0032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value>Regardless of whether you’re validating performance requirements, guarding against regressions, or flooding your system in a load test designed to make your database server weep, you absolutely must approach your testing with a logical, empirical mindset. You’ll need to spend some time considering your environment, hardware, baseline datasets, and how to configure your system itself.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:IssueNumber">
+        <cmis:value>January '15</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>1d2a0032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Issues</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>422a0032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>2b2a0032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>7-must-have-features-when-choosing-an-agile-management-tool</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>7 Must-have Features When Choosing an Agile Management Tool</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueCover">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/issue-covers\/cover14.tmb-.png?sfvrsn=1","ChildItemId":"06230032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"IssueCover","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805344)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"2b2a0032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueDocument">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"Customize properties displayed inside the property editor..pdf (262 KB )","ChildItemId":"935d0032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"IssueDocument","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805346)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"2b2a0032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Articles">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"9cf7ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"Articles","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805348)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"2b2a0032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:FeaturedArticle">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"3efaff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"FeaturedArticle","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805350)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"2b2a0032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value>There is an overabundance of agile project management tools on the market today. Some of these tools span across various landscape areas of development processes, where some tool choices only target specific areas, making the choice even harder.
+
+</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:IssueNumber">
+        <cmis:value>February '15</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>422a0032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Issues</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>5d2a0032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>462a0032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>web-forms-mvc-web-api-signalr.-how-can-i-choose-just-one</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Web Forms, MVC, Web API, SignalR. How can I choose just ONE?</cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueCover">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"\/images\/default-source\/issue-covers\/cover15.tmb-.png?sfvrsn=1","ChildItemId":"0a230032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Image","ComponentPropertyName":"IssueCover","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805352)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"462a0032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:IssueDocument">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":"Add customizable grid controls..pdf (182 KB )","ChildItemId":"aa5a0032-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.Libraries.Model.Document","ComponentPropertyName":"IssueDocument","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805354)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"462a0032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Articles">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"f7faff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"Articles","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805356)\/","Ordinal":2,"ParentItemAdditionalInfo":null,"ParentItemId":"462a0032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:FeaturedArticle">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"2bf6ff31-ebfb-67f3-ba7d-ff000072e94b","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.News.Model.NewsItem","ComponentPropertyName":"FeaturedArticle","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475491805358)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"462a0032-ebfb-67f3-ba7d-ff000072e94b","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value>Every day there are new inventions and new techniques, quickly pushing aside the older
+generation in favor of the new and shiny. ASP.NET is no different, with the addition of
+MVC, WebPages, WebAPI, SignalR, and SPA frameworks. Each one of these frameworks
+added something new to the ASP.NET landscape and made software developers ask themselves: Do I re-write my website to use “technology x”?</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:IssueNumber">
+        <cmis:value>March '15</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>5d2a0032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Issues.Issue</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Issues</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+</atom:entry>

@@ -1,0 +1,27 @@
+@model SitefinityWebApp.Mvc.Models.FilteredSessionsModel
+
+@if (Model.Conference != null)
+{
+    <strong>Conference: <a href='@Model.Conference.DefaultUrl'>@Model.Conference.Identifier</a></strong>
+}
+
+@if (Model.Speaker != null)
+{
+    <strong>Speaker: <a href='@Model.Speaker.DefaultUrl'>@Model.Speaker.Identifier</a></strong>
+}
+
+@if (Model.Items.Count() > 0)
+{
+    <div>Sessions:</div>
+    foreach (var item in Model.Items)
+    {
+        <li class="sfrelatedListItem sflistitem">
+            <a href='@item.DefaultUrl'>@item.Identifier
+            </a>
+        </li>
+    }
+}
+else 
+{
+    <div>No sessions available.</div>
+}

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<atom:entry xmlns:app="http://www.w3.org/2007/app" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cmis="http://docs.oasis-open.org/ns/cmis/core/200908/" xmlns:cmisra="http://docs.oasis-open.org/ns/cmis/restatom/200908/" xmlns:sf="urn:telerik:sitefinity:cmis" xml:base="http://localhost:2201/Sitefinity/CMIS/RestAtom/">
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:SystemParentType" />
+      <cmis:propertyId propertyDefinitionId="sf:SystemParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SystemHasChildItems">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>525d3755-bcc8-6db8-ac34-ff0000320551</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>435d3755-bcc8-6db8-ac34-ff0000320551</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>c-conference</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>C# Conference</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Images">
+        <cmis:value>[]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Speakers">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"f75c3755-bcc8-6db8-ac34-ff0000320551","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.DynamicTypes.Model.Speakers.Speaker","ComponentPropertyName":"Speakers","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475501176461)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"435d3755-bcc8-6db8-ac34-ff0000320551","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Conferences.Conference"},{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"245d3755-bcc8-6db8-ac34-ff0000320551","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.DynamicTypes.Model.Speakers.Speaker","ComponentPropertyName":"Speakers","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475501176461)\/","Ordinal":-1,"ParentItemAdditionalInfo":null,"ParentItemId":"435d3755-bcc8-6db8-ac34-ff0000320551","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Conferences.Conference"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <sf:Telerik.Sitefinity.RelatedData.RelatedItems propertyDefinitionId="sf:Sessions">
+        <cmis:value>[{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"055d3755-bcc8-6db8-ac34-ff0000320551","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.DynamicTypes.Model.Sessions.Session","ComponentPropertyName":"Sessions","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475501176462)\/","Ordinal":0,"ParentItemAdditionalInfo":null,"ParentItemId":"435d3755-bcc8-6db8-ac34-ff0000320551","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Conferences.Conference"},{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"145d3755-bcc8-6db8-ac34-ff0000320551","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.DynamicTypes.Model.Sessions.Session","ComponentPropertyName":"Sessions","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475501176462)\/","Ordinal":-1,"ParentItemAdditionalInfo":null,"ParentItemId":"435d3755-bcc8-6db8-ac34-ff0000320551","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Conferences.Conference"},{"ApplicationName":null,"Attributes":[],"AvailableForLive":true,"AvailableForMaster":true,"AvailableForTemp":true,"ChildItemAdditionalInfo":null,"ChildItemId":"325d3755-bcc8-6db8-ac34-ff0000320551","ChildItemProviderName":"","ChildItemType":"Telerik.Sitefinity.DynamicTypes.Model.Sessions.Session","ComponentPropertyName":"Sessions","Id":"00000000-0000-0000-0000-000000000000","IsChildDeleted":false,"IsParentDeleted":false,"LastModified":"\/Date(1475501176462)\/","Ordinal":-2,"ParentItemAdditionalInfo":null,"ParentItemId":"435d3755-bcc8-6db8-ac34-ff0000320551","ParentItemProviderName":"","ParentItemType":"Telerik.Sitefinity.DynamicTypes.Model.Conferences.Conference"}]</cmis:value>
+      </sf:Telerik.Sitefinity.RelatedData.RelatedItems>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>525d3755-bcc8-6db8-ac34-ff0000320551</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Author">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.DynamicTypes.Model.Conferences.Conference</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName">
+        <cmis:value>Conferences</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+</atom:entry>

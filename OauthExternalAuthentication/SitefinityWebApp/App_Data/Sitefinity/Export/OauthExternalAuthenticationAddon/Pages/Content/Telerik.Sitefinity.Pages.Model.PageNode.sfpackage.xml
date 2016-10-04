@@ -1,0 +1,871 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<atom:entry xmlns:app="http://www.w3.org/2007/app" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cmis="http://docs.oasis-open.org/ns/cmis/core/200908/" xmlns:cmisra="http://docs.oasis-open.org/ns/cmis/restatom/200908/" xmlns:sf="urn:telerik:sitefinity:cmis" xml:base="http://localhost:1439/Sitefinity/CMIS/RestAtom/">
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>0c32f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Name" />
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>login</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EnableDefaultCanonicalUrl" />
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Login</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:ShowInNavigation">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:RenderAsLink">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowMultipleUrls">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AdditionalUrlsRedirectToDefaultOne">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyDecimal propertyDefinitionId="sf:Ordinal">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyString propertyDefinitionId="sf:Attributes" sf:collectionType="IDictionary" />
+      <cmis:propertyId propertyDefinitionId="sf:PageId">
+        <cmis:value>0d32f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:ParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:PreviousParentId" />
+      <cmis:propertyId propertyDefinitionId="sf:RootNodeId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:NodeType">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyString propertyDefinitionId="sf:RedirectUrl">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:LinkedNodeId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:LinkedNodeProvider" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:OpenNewWindow">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsBackend">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:CanBeSplit">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Extension">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowParametersValidation">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName" />
+      <cmis:propertyInteger propertyDefinitionId="sf:LocalizationStrategy">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsSplitPage">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:Crawlable">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:RequireSsl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSearchIndex">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>0c32f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageNode</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentType">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageNode</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:HomePageId">
+        <cmis:value>0c32f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:HtmlTitle">
+        <cmis:value>Login</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Keywords">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:Crawlable">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:RequireSsl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:LocalizationStrategy">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:TranslationInitialized">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsBackendPage">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EnableViewState">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:HeadTagContent">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EnableViewStateMac">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:CacheOutput">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SlidingExpiration">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:CacheDuration">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyString propertyDefinitionId="sf:OutputCacheProfile">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:CodeBehindType">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EnableEventValidation">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EnableSessionState">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EnableTheming">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ErrorPage" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:ValidateRequest">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:Trace">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:TraceMode">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyInteger propertyDefinitionId="sf:ViewStateEncryption">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyString propertyDefinitionId="sf:Culture" />
+      <cmis:propertyString propertyDefinitionId="sf:UiCulture" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsSplitPage">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsBackend">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsAutoCreated">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ResponseEncoding" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:BufferOutput">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:MaintainScrollPositionOnPostback">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ExternalPage" />
+      <cmis:propertyString propertyDefinitionId="sf:Theme" />
+      <cmis:propertyString propertyDefinitionId="sf:Themes">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyInteger propertyDefinitionId="sf:CommentsCount">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyString propertyDefinitionId="sf:MasterPage" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeScriptManager">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:LastControlId">
+        <cmis:value>3</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyString propertyDefinitionId="sf:Attributes" sf:collectionType="IDictionary" />
+      <cmis:propertyInteger propertyDefinitionId="sf:UrlEvaluationMode">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyInteger propertyDefinitionId="sf:BuildStamp">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:NavigationNodeId">
+        <cmis:value>0c32f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:PersonalizationMasterId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:PersonalizationSegmentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>0d32f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:SourceKey" />
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyString propertyDefinitionId="sf:ContentState" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:SupportsContentLifecycle">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>0d32f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageData</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:PageTemplateId">
+        <cmis:value>f669d9a7-009d-4d83-bbbb-000000000001</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:PageNodeId">
+        <cmis:value>0c32f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyId propertyDefinitionId="sf:ContainerId">
+        <cmis:value>0d32f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:PlaceHolder">
+        <cmis:value>C003_Col01</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Culture" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:Shared">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowSecurityTrimming">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Caption">
+        <cmis:value>Login / Logout button</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description" />
+      <cmis:propertyId propertyDefinitionId="sf:SiblingId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalControlId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsLayoutControl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsDataSource">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:Editable">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:PlaceHolders" sf:collectionType="IEnumerable" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsTranslatable">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsOverridedControl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:BaseControlId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Strategy">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:PersonalizationMasterId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:PersonalizationSegmentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>b233f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:ObjectType">
+        <cmis:value>Telerik.Sitefinity.Mvc.Proxy.MvcControllerProxy</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyInteger propertyDefinitionId="sf:CollectionIndex">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyString propertyDefinitionId="sf:DictionaryKey" />
+      <cmis:propertyString propertyDefinitionId="sf:MultilingualPropertyValues" sf:collectionType="IDictionary" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsBackendObject">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>b233f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageControl</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentId">
+        <cmis:value>0d32f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:ParentType">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageData</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>b633f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>ID</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Validation" />
+      <cmis:propertyString propertyDefinitionId="sf:MultilingualValue">
+        <cmis:value>C001</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Value">
+        <cmis:value>C001</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Caption" />
+      <cmis:propertyString propertyDefinitionId="sf:Description" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:Multilingual">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Language" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>b633f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.ControlProperty</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentControlType">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageControl</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentControlId">
+        <cmis:value>b233f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>b733f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>ControllerName</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Validation" />
+      <cmis:propertyString propertyDefinitionId="sf:MultilingualValue">
+        <cmis:value>Telerik.Sitefinity.Frontend.Identity.Mvc.Controllers.LoginStatusController</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Value">
+        <cmis:value>Telerik.Sitefinity.Frontend.Identity.Mvc.Controllers.LoginStatusController</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Caption" />
+      <cmis:propertyString propertyDefinitionId="sf:Description" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:Multilingual">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Language" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>b733f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.ControlProperty</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentControlType">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageControl</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentControlId">
+        <cmis:value>b233f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyId propertyDefinitionId="sf:ContainerId">
+        <cmis:value>0d32f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:PlaceHolder">
+        <cmis:value>T88476CB6002_Col00</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Culture" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:Shared">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowSecurityTrimming">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Caption">
+        <cmis:value>Login form</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description" />
+      <cmis:propertyId propertyDefinitionId="sf:SiblingId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalControlId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsLayoutControl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsDataSource">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:Editable">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:PlaceHolders" sf:collectionType="IEnumerable" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsTranslatable">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsOverridedControl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:BaseControlId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Strategy">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:PersonalizationMasterId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:PersonalizationSegmentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>b833f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:ObjectType">
+        <cmis:value>Telerik.Sitefinity.Mvc.Proxy.MvcControllerProxy</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyInteger propertyDefinitionId="sf:CollectionIndex">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyString propertyDefinitionId="sf:DictionaryKey" />
+      <cmis:propertyString propertyDefinitionId="sf:MultilingualPropertyValues" sf:collectionType="IDictionary" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsBackendObject">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>b833f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageControl</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentId">
+        <cmis:value>0d32f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:ParentType">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageData</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ControlParentTemplateId">
+        <cmis:value>f669d9a7-009d-4d83-bbbb-000000000001</cmis:value>
+      </cmis:propertyId>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>bc33f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>ControllerName</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Validation" />
+      <cmis:propertyString propertyDefinitionId="sf:MultilingualValue">
+        <cmis:value>Telerik.Sitefinity.Frontend.Identity.Mvc.Controllers.LoginFormController</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Value">
+        <cmis:value>Telerik.Sitefinity.Frontend.Identity.Mvc.Controllers.LoginFormController</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Caption" />
+      <cmis:propertyString propertyDefinitionId="sf:Description" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:Multilingual">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Language" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>bc33f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.ControlProperty</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentControlType">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageControl</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentControlId">
+        <cmis:value>b833f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>bd33f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>Settings</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Validation" />
+      <cmis:propertyString propertyDefinitionId="sf:MultilingualValue" />
+      <cmis:propertyString propertyDefinitionId="sf:Value" />
+      <cmis:propertyString propertyDefinitionId="sf:Caption" />
+      <cmis:propertyString propertyDefinitionId="sf:Description" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:Multilingual">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Language" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>bd33f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.ControlProperty</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentControlType">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageControl</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentControlId">
+        <cmis:value>b833f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>be33f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>LoginFormTemplate</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Validation" />
+      <cmis:propertyString propertyDefinitionId="sf:MultilingualValue">
+        <cmis:value>Oauth</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Value">
+        <cmis:value>Oauth</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Caption" />
+      <cmis:propertyString propertyDefinitionId="sf:Description" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:Multilingual">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Language" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>be33f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.ControlProperty</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentControlPropertyType">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.ControlProperty</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentControlPropertyId">
+        <cmis:value>bd33f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>bf33f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>ID</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Validation" />
+      <cmis:propertyString propertyDefinitionId="sf:MultilingualValue">
+        <cmis:value>C002</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Value">
+        <cmis:value>C002</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Caption" />
+      <cmis:propertyString propertyDefinitionId="sf:Description" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:Multilingual">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Language" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>bf33f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.ControlProperty</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentControlType">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageControl</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentControlId">
+        <cmis:value>b833f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyId propertyDefinitionId="sf:ContainerId">
+        <cmis:value>0d32f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:PlaceHolder">
+        <cmis:value>T88476CB6001_Col00</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Culture" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:Shared">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowSecurityTrimming">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Caption">
+        <cmis:value>75% + 25%</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description" />
+      <cmis:propertyId propertyDefinitionId="sf:SiblingId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:OriginalControlId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsLayoutControl">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsDataSource">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:Editable">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:PlaceHolders" sf:collectionType="IEnumerable">
+        <cmis:value>C003_Col00</cmis:value>
+        <cmis:value>C003_Col01</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsTranslatable">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsOverridedControl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="sf:BaseControlId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:Strategy">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyId propertyDefinitionId="sf:PersonalizationMasterId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:PersonalizationSegmentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>9434f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:ObjectType">
+        <cmis:value>Telerik.Sitefinity.Web.UI.LayoutControl, Telerik.Sitefinity</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyInteger propertyDefinitionId="sf:CollectionIndex">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyString propertyDefinitionId="sf:DictionaryKey" />
+      <cmis:propertyString propertyDefinitionId="sf:MultilingualPropertyValues" sf:collectionType="IDictionary" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsBackendObject">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>9434f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageControl</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentId">
+        <cmis:value>0d32f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:ParentType">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageData</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ControlParentTemplateId">
+        <cmis:value>f669d9a7-009d-4d83-bbbb-000000000001</cmis:value>
+      </cmis:propertyId>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>9834f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>ID</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Validation" />
+      <cmis:propertyString propertyDefinitionId="sf:MultilingualValue">
+        <cmis:value>C003</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Value">
+        <cmis:value>C003</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Caption" />
+      <cmis:propertyString propertyDefinitionId="sf:Description" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:Multilingual">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Language" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>9834f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.ControlProperty</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentControlType">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageControl</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentControlId">
+        <cmis:value>9434f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>9934f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Name">
+        <cmis:value>Layout</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Validation" />
+      <cmis:propertyString propertyDefinitionId="sf:MultilingualValue">
+        <cmis:value>~/SFRes/Telerik.Sitefinity.Resources.Templates.Layouts.Column2Template5.ascx</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Value">
+        <cmis:value>~/SFRes/Telerik.Sitefinity.Resources.Templates.Layouts.Column2Template5.ascx</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Caption" />
+      <cmis:propertyString propertyDefinitionId="sf:Description" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:Multilingual">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Language" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>9934f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.ControlProperty</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentControlType">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageControl</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentControlId">
+        <cmis:value>9434f2f3-f92d-6824-b6c0-ff00001655ae</cmis:value>
+      </cmis:propertyId>
+    </cmis:properties>
+  </cmisra:object>
+</atom:entry>

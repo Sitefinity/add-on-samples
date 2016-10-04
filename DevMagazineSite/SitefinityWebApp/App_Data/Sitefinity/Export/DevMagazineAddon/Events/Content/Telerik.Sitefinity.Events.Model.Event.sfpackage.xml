@@ -1,0 +1,1623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<atom:entry xmlns:app="http://www.w3.org/2007/app" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cmis="http://docs.oasis-open.org/ns/cmis/core/200908/" xmlns:cmisra="http://docs.oasis-open.org/ns/cmis/restatom/200908/" xmlns:sf="urn:telerik:sitefinity:cmis" xml:base="http://localhost:1120/Sitefinity/CMIS/RestAtom/">
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Default Calendar</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Color">
+        <cmis:value>#C0C0C0</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>9df925a1-737e-4282-83bc-4b2b43ba4091</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>default-calendar</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>9df925a1-737e-4282-83bc-4b2b43ba4091</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Calendar</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Conferences</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Color">
+        <cmis:value>#1D7289</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>d4c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>conferences</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>d4c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Calendar</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Webinars</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Color">
+        <cmis:value>#8C1223</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>d6c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>webinars</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>d6c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Calendar</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventStart">
+        <cmis:value>2020-03-02 06:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventEnd">
+        <cmis:value>2020-03-03 07:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventStartUtcOffset">
+        <cmis:value>120</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventEndUtcOffset">
+        <cmis:value>120</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyString propertyDefinitionId="sf:ContactEmail">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactWeb">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Street">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:City">
+        <cmis:value>London</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Country">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:State">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactName">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactCell">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactPhone">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Content">
+        <cmis:value>&lt;p&gt;This year the digital summits are going global and we can&amp;rsquo;t wait to share with you the exciting new possibilities that our partnership brings to you.&lt;/p&gt;
+&lt;p&gt;As our partner community grows bigger, we want to provide you with the right tools and insights to successfully get your customers through their digital transformation. Positioning the Sitefinity CMS together with other Progress products can give you a strong competitive advantage in the saturated market and enable you to expand your expertise into higher margin consulting and development practices.&lt;/p&gt;
+&lt;p&gt;Join the experts from Progress and engage in a dialogue about mutual projects, our vision for the Progress product suite and how we can best work together to deepen the relationship with our customers and capitalize on new opportunities.&lt;/p&gt;
+&lt;p&gt;All partners are welcome together with their clients. We also invite all digital agencies and system integrators interested in utilizing our products and learning more about how joining our partner program will bring them new clients and opportunities.&lt;/p&gt;
+&lt;p&gt;We will dive into our platform&amp;rsquo;s advanced content management and marketing capabilities, our new partner program benefits and insightful discussions on technical topics.&lt;/p&gt;</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Summary">
+        <cmis:value>Join us in one of the many locations for the Progress Digital Summits. All Sitefinity partners, local digital and web agencies are invited but make sure to register on time, as numbers are limited. The one-day events will include sessions on business and technical topics.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsRecurrent">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:RecurrenceExpression" />
+      <cmis:propertyString propertyDefinitionId="sf:TimeZoneId">
+        <cmis:value>FLE Standard Time</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllDayEvent">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Location">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentId">
+        <cmis:value>d4c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyDateTime propertyDefinitionId="sf:AllDayEventEnd">
+        <cmis:value>2020-03-03 07:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyString propertyDefinitionId="sf:CommentsConfigPath">
+        <cmis:value>/EventsConfig/commentsSettings</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>d0c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Progress Digital Summits</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>progress-digital-summits</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:DefaultPageId" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyInteger propertyDefinitionId="sf:PostRights">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowTrackBacks" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowComments">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:ApproveComments">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EmailAuthor">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SupportsContentLifecycle">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ContentState" />
+      <cmis:propertyString propertyDefinitionId="sf:DraftCulture" />
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>c6c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:SourceKey" />
+      <cmis:propertyId propertyDefinitionId="sf:Category" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="sf:Tags" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>d0c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Event</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentType">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Calendar</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventStart">
+        <cmis:value>2020-05-17 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventEnd">
+        <cmis:value>2020-05-20 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventStartUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventEndUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyString propertyDefinitionId="sf:ContactEmail">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactWeb">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Street">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:City">
+        <cmis:value>San Diego</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Country">
+        <cmis:value>United States</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:State">
+        <cmis:value>CA</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactName">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactCell">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactPhone">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Content">
+        <cmis:value>&lt;p&gt;Fuel your marketing strategy as an engine for growth, unlock revenue, and gain aggressive market share.&lt;/p&gt;
+&lt;p&gt;This&amp;nbsp;conference was created for senior executives, as the premier outlet for learning the latest digital marketing trends. You will leave with actionable insights and key strategies derived from independent and objective research.&lt;/p&gt;
+&lt;p&gt;Find the Sitefinity team in the exhibit space, book a meeting with us or join our session.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Summary">
+        <cmis:value>Fuel your marketing strategy as an engine for growth, unlock revenue, and gain aggressive market share.
+
+This conference was created for senior executives, as the premier outlet for learning the latest digital marketing trends. You will leave with actionable insights and key strategies derived from independent and objective research.
+
+Find the Sitefinity team in the exhibit space, book a meeting with us or join our session.
+</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsRecurrent">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:RecurrenceExpression" />
+      <cmis:propertyString propertyDefinitionId="sf:TimeZoneId">
+        <cmis:value>UTC</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllDayEvent">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Location">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentId">
+        <cmis:value>d4c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyDateTime propertyDefinitionId="sf:AllDayEventEnd">
+        <cmis:value>2020-05-19 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyString propertyDefinitionId="sf:CommentsConfigPath">
+        <cmis:value>/EventsConfig/commentsSettings</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>eac30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Gartner Digital Marketing Conference</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>gartner-digital-marketing-conference</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:DefaultPageId" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyInteger propertyDefinitionId="sf:PostRights">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowTrackBacks" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowComments">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:ApproveComments">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EmailAuthor">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SupportsContentLifecycle">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ContentState" />
+      <cmis:propertyString propertyDefinitionId="sf:DraftCulture" />
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>e0c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:SourceKey" />
+      <cmis:propertyId propertyDefinitionId="sf:Category" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="sf:Tags" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>eac30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Event</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentType">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Calendar</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventStart">
+        <cmis:value>2020-05-24 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventEnd">
+        <cmis:value>2020-05-26 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventStartUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventEndUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyString propertyDefinitionId="sf:ContactEmail">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactWeb">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Street">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:City">
+        <cmis:value>Atlanta</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Country">
+        <cmis:value>United States</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:State">
+        <cmis:value>GA</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactName">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactCell">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactPhone">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Content">
+        <cmis:value>Digital Summit Atlanta is a premier digital strategies forum transforming the future of the digital commerce ecosystem &amp;ndash; including Marketing, UX &amp;amp; Design, Search, Content, Mobile, and more. It gives gives digital professionals an opportunity to learn directly from the world&amp;rsquo;s digital industry experts and network with your peers.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Summary">
+        <cmis:value>Digital Summit Atlanta is a premier digital strategies forum transforming the future of the digital commerce ecosystem – including Marketing, UX &amp; Design, Search, Content, Mobile, and more. It gives gives digital professionals an opportunity to learn directly from the world’s digital industry experts and network with your peers.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsRecurrent">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:RecurrenceExpression" />
+      <cmis:propertyString propertyDefinitionId="sf:TimeZoneId">
+        <cmis:value>UTC</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllDayEvent">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Location">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentId">
+        <cmis:value>d6c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyDateTime propertyDefinitionId="sf:AllDayEventEnd">
+        <cmis:value>2020-05-25 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyString propertyDefinitionId="sf:CommentsConfigPath">
+        <cmis:value>/EventsConfig/commentsSettings</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>f8c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Digital Summit Atlanta</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>digital-summit-atlanta</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:DefaultPageId" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyInteger propertyDefinitionId="sf:PostRights">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowTrackBacks" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowComments">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:ApproveComments">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EmailAuthor">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SupportsContentLifecycle">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ContentState" />
+      <cmis:propertyString propertyDefinitionId="sf:DraftCulture" />
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>eec30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:SourceKey" />
+      <cmis:propertyId propertyDefinitionId="sf:Category" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="sf:Tags" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>f8c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Event</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentType">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Calendar</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventStart">
+        <cmis:value>2020-10-18 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventEnd">
+        <cmis:value>2020-10-22 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventStartUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventEndUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyString propertyDefinitionId="sf:ContactEmail">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactWeb">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Street">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:City">
+        <cmis:value>Boston</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Country">
+        <cmis:value>United States</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:State">
+        <cmis:value>MA</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactName">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactCell">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactPhone">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Content">
+        <cmis:value>B2B Marketing Forum is more than just a quirky (not-so-little) conference.&lt;br /&gt;
+In 2016 we're celebrating our 10th year of being&lt;em&gt;the&lt;/em&gt;&amp;nbsp;place where&amp;nbsp;&lt;em&gt;the&lt;/em&gt;&amp;nbsp;leaders,&amp;nbsp;&lt;em&gt;the&lt;/em&gt;&amp;nbsp;innovators,&amp;nbsp;&lt;em&gt;the&lt;/em&gt;people who make things happen gather to learn about the latest in B2B marketing and share the secrets to their success.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Summary">
+        <cmis:value>B2B Marketing Forum is more than just a quirky (not-so-little) conference.
+In 2016 we're celebrating our 10th year of beingthe place where the leaders, the innovators, thepeople who make things happen gather to learn about the latest in B2B marketing and share the secrets to their success.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsRecurrent">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:RecurrenceExpression" />
+      <cmis:propertyString propertyDefinitionId="sf:TimeZoneId">
+        <cmis:value>UTC</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllDayEvent">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Location">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentId">
+        <cmis:value>d4c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyDateTime propertyDefinitionId="sf:AllDayEventEnd">
+        <cmis:value>2020-10-21 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyString propertyDefinitionId="sf:CommentsConfigPath">
+        <cmis:value>/EventsConfig/commentsSettings</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>06c40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>MarketingProfs' B2B Marketing Forum</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>marketingprofs'-b2b-marketing-forum</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:DefaultPageId" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyInteger propertyDefinitionId="sf:PostRights">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowTrackBacks" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowComments">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:ApproveComments">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EmailAuthor">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SupportsContentLifecycle">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ContentState" />
+      <cmis:propertyString propertyDefinitionId="sf:DraftCulture" />
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>fcc30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:SourceKey" />
+      <cmis:propertyId propertyDefinitionId="sf:Category" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="sf:Tags" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>06c40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Event</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentType">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Calendar</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventStart">
+        <cmis:value>2020-11-07 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventEnd">
+        <cmis:value>2020-11-10 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventStartUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventEndUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyString propertyDefinitionId="sf:ContactEmail">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactWeb">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Street">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:City">
+        <cmis:value>Las Vegas</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Country">
+        <cmis:value>United States</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:State">
+        <cmis:value>NV</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactName">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactCell">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactPhone">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Content">
+        <cmis:value>Be a part of helping organizations thrive in this environment by embracing and leveraging the convergence of the Web, technology, marketing, operations and connectivity. HCIC pulls together those in Digital, Marketing, Information Services, Web, eHealth and mHealth to learn, collaborate and advance the industry.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Summary">
+        <cmis:value>Be a part of helping organizations thrive in this environment by embracing and leveraging the convergence of the Web, technology, marketing, operations and connectivity. HCIC pulls together those in Digital, Marketing, Information Services, Web, eHealth and mHealth to learn, collaborate and advance the industry.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsRecurrent">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:RecurrenceExpression" />
+      <cmis:propertyString propertyDefinitionId="sf:TimeZoneId">
+        <cmis:value>UTC</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllDayEvent">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Location">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentId">
+        <cmis:value>d4c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyDateTime propertyDefinitionId="sf:AllDayEventEnd">
+        <cmis:value>2020-11-09 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyString propertyDefinitionId="sf:CommentsConfigPath">
+        <cmis:value>/EventsConfig/commentsSettings</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>14c40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Healthcare Internet Conference</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>healthcare-internet-conference</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:DefaultPageId" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyInteger propertyDefinitionId="sf:PostRights">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowTrackBacks" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowComments">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:ApproveComments">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EmailAuthor">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SupportsContentLifecycle">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ContentState" />
+      <cmis:propertyString propertyDefinitionId="sf:DraftCulture" />
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>0ac40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:SourceKey" />
+      <cmis:propertyId propertyDefinitionId="sf:Category" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="sf:Tags" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>14c40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Event</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentType">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Calendar</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventStart">
+        <cmis:value>2020-11-16 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventEnd">
+        <cmis:value>2020-11-18 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventStartUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventEndUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyString propertyDefinitionId="sf:ContactEmail">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactWeb">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Street">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:City">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Country">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:State">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactName">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactCell">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactPhone">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Content">
+        <cmis:value>Internet Summit is a premier digital strategies forum transforming the future of the digital commerce ecosystem &amp;ndash; including Marketing, UX &amp;amp; Design, Search, Content, Mobile, and more. It gives gives digital professionals an opportunity to learn directly from the world&amp;rsquo;s digital industry experts and network with your peers.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Summary">
+        <cmis:value>Internet Summit is a premier digital strategies forum transforming the future of the digital commerce ecosystem – including Marketing, UX &amp; Design, Search, Content, Mobile, and more. It gives gives digital professionals an opportunity to learn directly from the world’s digital industry experts and network with your peers.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsRecurrent">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:RecurrenceExpression" />
+      <cmis:propertyString propertyDefinitionId="sf:TimeZoneId">
+        <cmis:value>UTC</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllDayEvent">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Location">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentId">
+        <cmis:value>d6c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyDateTime propertyDefinitionId="sf:AllDayEventEnd">
+        <cmis:value>2020-11-17 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyString propertyDefinitionId="sf:CommentsConfigPath">
+        <cmis:value>/EventsConfig/commentsSettings</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>22c40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Internet Summit</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>internet-summit</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:DefaultPageId" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyInteger propertyDefinitionId="sf:PostRights">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowTrackBacks" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowComments">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:ApproveComments">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EmailAuthor">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SupportsContentLifecycle">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ContentState" />
+      <cmis:propertyString propertyDefinitionId="sf:DraftCulture" />
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>18c40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:SourceKey" />
+      <cmis:propertyId propertyDefinitionId="sf:Category" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="sf:Tags" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>22c40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Event</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentType">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Calendar</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventStart">
+        <cmis:value>2015-10-29 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventEnd">
+        <cmis:value>2015-10-30 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventStartUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventEndUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyString propertyDefinitionId="sf:ContactEmail">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactWeb">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Street">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:City">
+        <cmis:value>Dallas</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Country">
+        <cmis:value>United States</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:State">
+        <cmis:value>TX</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactName">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactCell">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactPhone">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Content">
+        <cmis:value>&lt;p&gt;Join us for an insightful day devoted on the topic of how we can help you&amp;nbsp;successfully get through your digital projects using Sitefinity and the Digital Experience Cloud. Hear first-hand the latest news about Sitefinity: product development plans, feature demos, and best practices from real-world projects presented by Sitefinity partners. We would like to hear from you about the challenges you face and show you how to get the most out of our products or our partnership.&amp;nbsp; The agenda is divided into a technical and a business track to best suit the needs of your representatives.&lt;/p&gt;
+&lt;p&gt;The Summit is free and we welcome our clients, partners, digital and marketing agencies and developers interested in Sitefinity CMS and the Digital Experience Cloud.&lt;/p&gt;</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Summary">
+        <cmis:value>Sitefinity Summit in Dallas unveiled the latest approaches on how optimizing customer engagement across digital channels drives business results.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsRecurrent">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:RecurrenceExpression" />
+      <cmis:propertyString propertyDefinitionId="sf:TimeZoneId">
+        <cmis:value>UTC</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllDayEvent">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Location">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentId">
+        <cmis:value>d4c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyDateTime propertyDefinitionId="sf:AllDayEventEnd">
+        <cmis:value>2015-10-29 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyString propertyDefinitionId="sf:CommentsConfigPath">
+        <cmis:value>/EventsConfig/commentsSettings</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>30c40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Sitefinity Summit in Dallas</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>sitefinity-summit-in-dallas</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:DefaultPageId" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyInteger propertyDefinitionId="sf:PostRights">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowTrackBacks" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowComments">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:ApproveComments">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EmailAuthor">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SupportsContentLifecycle">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ContentState" />
+      <cmis:propertyString propertyDefinitionId="sf:DraftCulture" />
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>26c40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:SourceKey" />
+      <cmis:propertyId propertyDefinitionId="sf:Category" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="sf:Tags" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>30c40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Event</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentType">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Calendar</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventStart">
+        <cmis:value>2015-10-27 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventEnd">
+        <cmis:value>2015-10-28 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventStartUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventEndUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyString propertyDefinitionId="sf:ContactEmail">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactWeb">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Street">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:City">
+        <cmis:value>Indianapolis</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Country">
+        <cmis:value>United States</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:State">
+        <cmis:value>IN</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactName">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactCell">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactPhone">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Content">
+        <cmis:value>Our first Indy Summit has come to a close and we are leaving town with valuable feedback and memories that make us smile. It was a very productive and insightful day for everyone there. &amp;nbsp;Marketing experts shared their experience during the business track and for the technical sessions we brought practical hands-on tips on working with our rapidly developing platform.&lt;br /&gt;
+We would like to share the videos and slides from the summit:</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Summary">
+        <cmis:value>Sitefinity came to Indianapolis to meet local digital transformation experts and help them grow their business through our cutting edge digital marketing platform.
+</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsRecurrent">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:RecurrenceExpression" />
+      <cmis:propertyString propertyDefinitionId="sf:TimeZoneId">
+        <cmis:value>UTC</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllDayEvent">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Location">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentId">
+        <cmis:value>d4c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyDateTime propertyDefinitionId="sf:AllDayEventEnd">
+        <cmis:value>2015-10-27 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyString propertyDefinitionId="sf:CommentsConfigPath">
+        <cmis:value>/EventsConfig/commentsSettings</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>3ec40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Sitefinity Summit in Indianapolis</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>sitefinity-summit-in-indianapolis</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:DefaultPageId" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyInteger propertyDefinitionId="sf:PostRights">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowTrackBacks" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowComments">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:ApproveComments">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EmailAuthor">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SupportsContentLifecycle">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ContentState" />
+      <cmis:propertyString propertyDefinitionId="sf:DraftCulture" />
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>34c40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:SourceKey" />
+      <cmis:propertyId propertyDefinitionId="sf:Category" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="sf:Tags" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>3ec40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Event</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentType">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Calendar</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventStart">
+        <cmis:value>2015-03-24 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventEnd">
+        <cmis:value>2015-03-25 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventStartUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventEndUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyString propertyDefinitionId="sf:ContactEmail">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactWeb">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Street">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:City">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Country">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:State">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactName">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactCell">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactPhone">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Content">
+        <cmis:value>Sitefinity UK Seminar brought together Sitefinity team members, partners, customers and companies interested learning more about the product.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Summary">
+        <cmis:value>Sitefinity UK Seminar brought together Sitefinity team members, partners, customers and companies interested learning more about the product.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsRecurrent">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:RecurrenceExpression" />
+      <cmis:propertyString propertyDefinitionId="sf:TimeZoneId">
+        <cmis:value>UTC</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllDayEvent">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Location">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentId">
+        <cmis:value>d6c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyDateTime propertyDefinitionId="sf:AllDayEventEnd">
+        <cmis:value>2015-03-24 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyString propertyDefinitionId="sf:CommentsConfigPath">
+        <cmis:value>/EventsConfig/commentsSettings</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>4cc40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Sitefinity UK Seminar: Online Marketing with Conversion Tracking</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>sitefinity-uk-seminar-online-marketing-with-conversion-tracking</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:DefaultPageId" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyInteger propertyDefinitionId="sf:PostRights">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowTrackBacks" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowComments">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:ApproveComments">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EmailAuthor">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SupportsContentLifecycle">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ContentState" />
+      <cmis:propertyString propertyDefinitionId="sf:DraftCulture" />
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>42c40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:SourceKey" />
+      <cmis:propertyId propertyDefinitionId="sf:Category" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="sf:Tags" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>4cc40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Event</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentType">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Calendar</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventStart">
+        <cmis:value>2014-11-24 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventEnd">
+        <cmis:value>2014-11-26 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventStartUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventEndUtcOffset">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyString propertyDefinitionId="sf:ContactEmail">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactWeb">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Street">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:City">
+        <cmis:value>Helsinki</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Country">
+        <cmis:value>Finland</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:State">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactName">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactCell">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactPhone">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Content">
+        <cmis:value>Sitefinity Nordic Summit brought together Sitefinity team members, partners, customers and companies interested learning more about the product</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Summary">
+        <cmis:value>Sitefinity Nordic Summit brought together Sitefinity team members, partners, customers and companies interested learning more about the product</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsRecurrent">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:RecurrenceExpression" />
+      <cmis:propertyString propertyDefinitionId="sf:TimeZoneId">
+        <cmis:value>UTC</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllDayEvent">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Location">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentId">
+        <cmis:value>d4c30032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyDateTime propertyDefinitionId="sf:AllDayEventEnd">
+        <cmis:value>2014-11-25 00:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyString propertyDefinitionId="sf:CommentsConfigPath">
+        <cmis:value>/EventsConfig/commentsSettings</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>5ac40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Sitefinity Nordic Summit</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>sitefinity-nordic-summit</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:DefaultPageId" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyInteger propertyDefinitionId="sf:PostRights">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowTrackBacks" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowComments">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:ApproveComments">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EmailAuthor">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SupportsContentLifecycle">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ContentState" />
+      <cmis:propertyString propertyDefinitionId="sf:DraftCulture" />
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>50c40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:SourceKey" />
+      <cmis:propertyId propertyDefinitionId="sf:Category" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="sf:Tags" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>5ac40032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Event</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentType">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Calendar</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventStart">
+        <cmis:value>2016-03-02 06:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDateTime propertyDefinitionId="sf:EventEnd">
+        <cmis:value>2016-03-02 18:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventStartUtcOffset">
+        <cmis:value>120</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyDecimal propertyDefinitionId="sf:EventEndUtcOffset">
+        <cmis:value>120</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyString propertyDefinitionId="sf:ContactEmail">
+        <cmis:value>joeblack@gmail.com</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactWeb">
+        <cmis:value>http://google.com</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Street">
+        <cmis:value>123 Baker str.</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:City">
+        <cmis:value>London</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Country">
+        <cmis:value>United Kingdom</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:State">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactName">
+        <cmis:value>Joe Black</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactCell">
+        <cmis:value>+1 359 887687209</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ContactPhone">
+        <cmis:value>+1 359 887687209</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Content">
+        <cmis:value>&lt;p&gt;Fuel your marketing strategy as an engine for growth, unlock revenue, and gain aggressive market share.&lt;/p&gt;
+&lt;p&gt;This&amp;nbsp;conference was created for senior executives, as the premier outlet for learning the latest digital marketing trends. You will leave with actionable insights and key strategies derived from independent and objective research.&lt;/p&gt;
+&lt;p&gt;Find the Sitefinity team in the exhibit space, book a meeting with us or join our session.&lt;/p&gt;</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Summary">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsRecurrent">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:RecurrenceExpression" />
+      <cmis:propertyString propertyDefinitionId="sf:TimeZoneId">
+        <cmis:value>FLE Standard Time</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllDayEvent">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Location">
+        <cmis:value>Ring on bell number 10</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:ParentId">
+        <cmis:value>9df925a1-737e-4282-83bc-4b2b43ba4091</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyDateTime propertyDefinitionId="sf:AllDayEventEnd">
+        <cmis:value>2016-03-02 18:00:00Z</cmis:value>
+      </cmis:propertyDateTime>
+      <cmis:propertyString propertyDefinitionId="sf:CommentsConfigPath">
+        <cmis:value>/EventsConfig/commentsSettings</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value>Published</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>eae10032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Gartner Digital Marketing Conference 2016</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>gartner-digital-marketing-conference-2016</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:DefaultPageId" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSitemap">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyInteger propertyDefinitionId="sf:Status">
+        <cmis:value>2</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyInteger propertyDefinitionId="sf:PostRights">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowTrackBacks" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowComments">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:ApproveComments">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EmailAuthor">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:SupportsContentLifecycle">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ContentState" />
+      <cmis:propertyString propertyDefinitionId="sf:DraftCulture" />
+      <cmis:propertyId propertyDefinitionId="sf:OriginalContentId">
+        <cmis:value>e0e10032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:SourceKey" />
+      <cmis:propertyId propertyDefinitionId="sf:Category" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="sf:Tags" sf:collectionType="IEnumerable" />
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>eae10032-ebfb-67f3-ba7d-ff000072e94b</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Event</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentType">
+        <cmis:value>Telerik.Sitefinity.Events.Model.Calendar</cmis:value>
+      </cmis:propertyString>
+    </cmis:properties>
+  </cmisra:object>
+</atom:entry>

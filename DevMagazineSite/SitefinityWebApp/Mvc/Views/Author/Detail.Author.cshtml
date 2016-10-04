@@ -1,0 +1,45 @@
+﻿@model Telerik.Sitefinity.Frontend.Mvc.Models.ContentDetailsViewModel
+
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers;
+@using Telerik.Sitefinity.Frontend.DynamicContent.Mvc.Helpers;
+@using Telerik.Sitefinity.RelatedData;
+@using Telerik.Sitefinity.Modules.Libraries;
+@using System.Linq;
+
+@using SitefinityWebApp.Mvc.ViewModels;
+
+@Html.Script(Telerik.Sitefinity.Modules.Pages.ScriptRef.JQuery)
+
+<section class="section">
+    <div class="container">
+        
+            <div @Html.InlineEditingAttributes(Model.ProviderName, Model.ContentType.FullName, (Guid)Model.Item.DataItem.Id)>          
+                <div class="Author Author--header text-center">
+                    <img src='@(MediaContentExtensions.ResolveThumbnailUrl(Model.Item.Fields.Avatar.DataItem, "v230-230", true))'
+                                        class="img-circle"
+                                        width='128'
+                                        height='128'/>
+
+                    <h1>@Model.Item.Fields.Name</h1>
+                    <p class="text-muted">@Model.Item.Fields.JobTitle</p>
+
+                    <p>@Html.Raw(Model.Item.Fields.Bio)</p>
+                </div>
+            </div>
+        
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h4>@Model.Item.Fields.Name’s articles</h4>
+        <hr />
+        @Html.Partial("_RecentByTopic.Author", AuthorViewModel.GetRelatedArticles((Telerik.Sitefinity.DynamicModules.Model.DynamicContent)Model.Item.DataItem))
+    </div>
+</section>
+
+<section class="section section--gray">
+    <div class="container">
+        @Html.Partial("_LatestIssue", AuthorViewModel.GetLatestIssue())
+    </div>
+</section>

@@ -1,0 +1,24 @@
+<div class="form-group">
+    <div>
+        <label for="conferences">Conferences:</label>
+    </div>
+    <div class="row">
+        <div class="col-xs-6">
+            <select id="conferences" ng-model="conference" ng-options="conference.Title for conference in conferences" class="form-control">
+                <option value=''>Select</option>
+            </select>
+        </div>
+    </div>
+</div>
+<div class="form-group">
+    <div>
+        <label for="speakers">Related Speakers:</label>
+    </div>
+    <div class="row">
+        <div class="col-xs-6">
+            <select id="speakers" ng-disabled="!speakers" ng-model="speaker" ng-options="speaker.FullName for speaker in speakers" class="form-control">
+                <option value=''>Select</option>
+            </select>
+        </div>
+    </div>
+</div>
